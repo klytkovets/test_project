@@ -11,7 +11,7 @@ import java.net.MalformedURLException;
 public class BaseTest{
 
     @BeforeMethod
-    public void beforeWithData(){
+    public void before(){
         //create driver
         BasePage.driver.set(Driver.getDriver(DriverType.CHROME));
     }
@@ -25,9 +25,5 @@ public class BaseTest{
 
     }
 
-    @AfterSuite(alwaysRun = true)
-    public void flushReporter() {
-        //reporter.closeReporter();
-    }
 
 }
