@@ -6,4 +6,4 @@
 2. To generate html report install [allure command tool](https://github.com/etki/allure-cli) and run
 
 
-    allure serve path/to/project/target/allure-result
+    allure serve path_to_project/target/allure-result
